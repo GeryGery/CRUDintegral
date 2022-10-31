@@ -1,0 +1,33 @@
+.middle {
+	display: flex;
+	justify-content: center;
+	margin: auto;
+	margin-bottom: 1em;
+}
+
+.grid-container {
+	display: grid;
+	width: 100%;
+	grid-template-columns: 2fr 40% 2fr 3fr 1fr 1fr;
+	row-gap: 10px;
+}
+
+.grid-item {
+	text-align: center;
+}
+
+.header {
+	font-weight: bold;
+}
+
+#statusMsg {
+	color: red;
+}
+
+.grid-item .form, .grid-item .descform, .grid-item .Catform, .grid-item .Subform {
+	display: none;
+}
+
+select option[disabled] {
+    display: none;
+}
